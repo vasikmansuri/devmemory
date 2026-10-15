@@ -1,7 +1,9 @@
 // Child process used by the concurrency test: writes N memories into the same project.
 // Usage: node concurrent-writer.mjs <distIndexPath> <projectDir> <workerId> <count>
 const [, , distIndex, projectDir, workerId, count] = process.argv;
-const { DevMemory } = await import(distIndex);
+const { pathToFileURL } = await import('node:url');
+// import() needs a file:// URL for absolute Windows paths (D:\...).
+const { DevMemory } = await import(pathToFileURL(distIndex).href);
 const dm = DevMemory.open();
 const pm = dm.project(dm.projects.resolve(projectDir));
 let created = 0;
