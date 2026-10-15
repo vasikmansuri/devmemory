@@ -104,3 +104,5 @@ npm run demo    # real fresh-session and isolation demo
 ## License
 
 MIT. Runtime dependencies are MIT or Apache-2.0.
+
+Note: Windows is tested on Node 24 and 26. On Windows + Node 22, `better-sqlite3` currently needs a local C++ build toolchain.
