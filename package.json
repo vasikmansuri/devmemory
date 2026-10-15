@@ -1,7 +1,7 @@
 {
   "name": "@vasikmansuri/devmemory",
   "version": "0.1.0",
-  "description": "Local-first persistent project memory for AI coding agents, served over MCP (stdio) and a CLI. SQLite + FTS5, no cloud, no telemetry.",
+  "description": "Persistent local-first memory for AI coding agents: MCP server + CLI for Claude Code and Cursor. SQLite FTS5 search, secret redaction, project isolation.",
   "type": "module",
   "license": "MIT",
   "author": "Vasik Mansuri",
@@ -14,7 +14,15 @@
     "fts5",
     "claude-code",
     "cursor",
-    "cli"
+    "cli",
+    "mcp-server",
+    "ai-memory",
+    "llm",
+    "long-term-memory",
+    "persistent-memory",
+    "coding-assistant",
+    "developer-tools",
+    "local-first"
   ],
   "engines": {
     "node": ">=22.12.0"
