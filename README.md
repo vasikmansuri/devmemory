@@ -7,6 +7,9 @@ Local-first persistent project memory for AI coding agents, served over MCP (std
 Node.js ≥ 22.12.
 
 ```bash
+npm install -g @vasikmansuri/devmemory   # installs the `devmemory` command
+
+# or from source
 git clone <repo-url> devmemory && cd devmemory
 npm ci && npm run build && npm link
 ```
