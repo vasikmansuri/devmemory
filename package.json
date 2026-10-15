@@ -1,0 +1,73 @@
+{
+  "name": "devmemory",
+  "version": "0.1.0",
+  "description": "Local-first persistent project memory for AI coding agents, served over MCP (stdio) and a CLI. SQLite + FTS5, no cloud, no telemetry.",
+  "type": "module",
+  "license": "MIT",
+  "author": "DevMemory contributors",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "memory",
+    "sqlite",
+    "fts5",
+    "claude-code",
+    "cursor",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "bin": {
+    "devmemory": "dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "vitest run test/eval --reporter=verbose",
+    "demo": "npm run build && node demo/run-demo.mjs",
+    "check": "npm run typecheck && npm run lint && npm run format:check && npm run test && npm run build",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.3.1",
+    "better-sqlite3": "13.0.3",
+    "commander": "15.0.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@modelcontextprotocol/client": "2.3.1",
+    "@types/better-sqlite3": "9.6.0",
+    "@types/node": "26.6.5",
+    "eslint": "10.12.0",
+    "globals": "17.13.0",
+    "prettier": "3.9.10",
+    "tsup": "9.0.0",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vitest": "5.0.4"
+  }
+}
