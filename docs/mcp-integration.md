@@ -8,7 +8,7 @@ The server runs as `devmemory mcp [--project <dir>] [--init]` over stdio. It cho
 
 ## Claude Code: verified with 2.1.294 on macOS
 
-1. **Install:** `npm i -g devmemory` (or `npm link` from a source checkout).
+1. **Install:** `npm i -g @vasikmansuri/devmemory` (or `npm link` from a source checkout).
 2. **Initialize your project:** `cd your-project && devmemory init`
 3. **Register the server.** For your own use:
    ```bash

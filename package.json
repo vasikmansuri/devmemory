@@ -1,5 +1,5 @@
 {
-  "name": "devmemory",
+  "name": "@vasikmansuri/devmemory",
   "version": "0.1.0",
   "description": "Local-first persistent project memory for AI coding agents, served over MCP (stdio) and a CLI. SQLite + FTS5, no cloud, no telemetry.",
   "type": "module",
