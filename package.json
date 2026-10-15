@@ -4,7 +4,7 @@
   "description": "Local-first persistent project memory for AI coding agents, served over MCP (stdio) and a CLI. SQLite + FTS5, no cloud, no telemetry.",
   "type": "module",
   "license": "MIT",
-  "author": "DevMemory contributors",
+  "author": "Vasik Mansuri",
   "keywords": [
     "mcp",
     "model-context-protocol",
@@ -69,5 +69,13 @@
     "typescript": "6.0.3",
     "typescript-eslint": "8.71.2",
     "vitest": "5.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasikmansuri/devmemory.git"
+  },
+  "homepage": "https://github.com/vasikmansuri/devmemory#readme",
+  "bugs": {
+    "url": "https://github.com/vasikmansuri/devmemory/issues"
   }
 }
