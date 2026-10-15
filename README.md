@@ -106,3 +106,7 @@ npm run demo    # real fresh-session and isolation demo
 MIT. Runtime dependencies are MIT or Apache-2.0.
 
 Note: Windows is tested on Node 24 and 26. On Windows + Node 22, `better-sqlite3` currently needs a local C++ build toolchain.
+
+## Documentation
+
+[Architecture](docs/architecture.md) · [Memory model](docs/memory-model.md) · [Security model](docs/security-model.md) · [MCP integration](docs/mcp-integration.md) · [Troubleshooting](docs/troubleshooting.md) · [Retrieval evaluation](docs/retrieval-evaluation.md) · [Roadmap](docs/roadmap.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md)
