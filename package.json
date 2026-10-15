@@ -1,6 +1,6 @@
 {
   "name": "@vasikmansuri/devmemory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Persistent local-first memory for AI coding agents: MCP server + CLI for Claude Code and Cursor. SQLite FTS5 search, secret redaction, project isolation.",
   "type": "module",
   "license": "MIT",

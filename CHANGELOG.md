@@ -4,6 +4,12 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-15
+
+### Changed
+
+- Published as `@vasikmansuri/devmemory`; new README with diagrams, npm keywords and repository metadata.
+
 ## [0.1.0] - 2026-10-15
 
 ### Added
