@@ -265,3 +265,9 @@ Contributions are welcome! Run `npm run check` (typecheck, lint, 129 tests, buil
 <sub>Keywords: AI memory · MCP server · Model Context Protocol · Claude Code memory · Cursor MCP · AI coding assistant · persistent context · long-term memory for LLM agents · local-first · SQLite FTS5 · developer tools</sub>
 
 </div>
+
+## Support
+
+If this project is useful to you, you can support my open-source work:
+
+<a href="https://buymeacoffee.com/vasikmansuri"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-support-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee"/></a>
