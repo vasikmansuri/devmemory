@@ -100,16 +100,19 @@ Requires **Node.js ≥ 22.12**.
 # 1. Install
 npm install -g @vasikmansuri/devmemory
 
-# 2. Register your project
+# 2. Verify the CLI is available
+devmemory --version
+
+# 3. Register your project
 cd ~/code/my-app
 devmemory init
 
-# 3. Save knowledge
+# 4. Save knowledge
 devmemory remember -t decision --title "Use Drizzle ORM" \
   -c "Drizzle over Prisma: Prisma's engine binary breaks on edge runtimes." \
   --tags db,orm -i 4 --source-ref docs/adr/0003.md
 
-# 4. Find it again
+# 5. Find it again
 devmemory search "which orm"
 devmemory context "touching the data layer"
 ```
